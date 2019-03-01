@@ -2,7 +2,7 @@
 	"use strict";
 	var nav = $('nav');
   var navHeight = nav.outerHeight();
-  
+
   $('.navbar-toggler').on('click', function() {
     if( ! $('#mainNav').hasClass('navbar-reduce')) {
       $('#mainNav').addClass('navbar-reduce');
@@ -73,7 +73,7 @@
 	/*--/ Navbar Menu Reduce /--*/
 	$(window).trigger('scroll');
 	$(window).on('scroll', function () {
-		var pixels = 50; 
+		var pixels = 50;
 		var top = 1200;
 		if ($(window).scrollTop() > pixels) {
 			$('.navbar-expand-md').addClass('navbar-reduce');
@@ -113,5 +113,58 @@
 			}
 		}
 	});
+
+	var countersAnimate = function() {
+		var counters = $('#fh5co-counters');
+		if ( counters.length > 0 ) {
+
+			counters.waypoint( function( direction ) {
+
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+					var sec = counters.find('.to-animate').length,
+						sec = parseInt((sec * 200) + 400);
+
+					setTimeout(function() {
+						counters.find('.to-animate').each(function( k ) {
+							var el = $(this);
+
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+
+						});
+					}, 200);
+
+					setTimeout(function() {
+						counters.find('.js-counter').countTo({
+							formatter: function (value, options) {
+									return value.toFixed(options.decimals);
+							},
+						});
+					}, 400);
+
+					setTimeout(function() {
+						counters.find('.to-animate-2').each(function( k ) {
+							var el = $(this);
+
+							setTimeout ( function () {
+								el.addClass('bounceIn animated');
+							},  k * 200, 'easeInOutExpo' );
+
+						});
+					}, sec);
+
+
+
+
+
+					$(this.element).addClass('animated');
+
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
 
 })(jQuery);
