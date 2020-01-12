@@ -100,7 +100,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .4;
+  opacity: 0;
 }
 
 .paralax-mf {
@@ -652,7 +652,7 @@ a:hover {
   position: absolute;
 }
 
-.intro .overlay-itro {
+.intro .overlay-intro {
   background-color: rgba(0, 0, 0, 0,3);
   position: absolute;
   top: 0;
