@@ -44,7 +44,26 @@
 		time: 2000
 	});
 
+	/*--/ FAQ accordion /--*/
+
+	const acc = document.getElementsByClassName("accordion");
+
+	for (let i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+			this.classList.toggle("active_accordion");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+			} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+			}
+		});
+	}
+
+
+
 	/*--/ Star Scrolling nav /--*/
+
 	$('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 			var target = $(this.hash);

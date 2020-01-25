@@ -268,11 +268,11 @@ a:hover {
   height: 100px;
   width: 150px;
   font-size: 2rem;
-  border-radius: 25%;
+  border-radius: 45%;
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #4287f5;
+  box-shadow: 0 0 0 15px #4287f5;
   display: block;
 }
 
@@ -318,6 +318,51 @@ a:hover {
   background-color: #1B1B1B;
   width: 25px;
 }
+
+
+/*--/ FAQ /--*/
+
+.accordion {
+  background-color: #d7ebf8;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: 1px solid rgba(0,0,0, 0.1);
+  outline: none;
+  transition: 0.4s;
+}
+
+.active_accordion, .accordion:hover {
+  background-color: #c1e1f5;
+}
+
+.accordion:after {
+  font-family: FontAwesome;
+  content:"\f067";
+  font-size: 20px;
+  color: #777;
+  float: right;
+}
+
+.active_accordion:after {
+  font-family: FontAwesome;
+  content:"\f00d";
+  font-size: 21px;
+  color: #616060;
+}
+
+.response {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+
 
 /*--/ Scrolltop s /--*/
 
