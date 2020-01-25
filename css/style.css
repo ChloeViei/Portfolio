@@ -264,6 +264,18 @@ a:hover {
   display: block;
 }
 
+.ico-logo {
+  height: 100px;
+  width: 150px;
+  font-size: 2rem;
+  border-radius: 25%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #4287f5;
+  display: block;
+}
+
 .ico-circle-petit {
   height: 80px;
   width: 80px;
@@ -759,6 +771,13 @@ a:hover {
   box-shadow: 0 0 0 10px #d7ebf8;
 }
 
+.service-box:hover .ico-logo {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0a61bf;
+  box-shadow: 0 0 0 10px #0a61bf;
+}
+
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
@@ -766,6 +785,11 @@ a:hover {
 
 .service-box .ico-circle {
   transition: all 500ms ease;
+  font-size: 4rem;
+}
+
+.service-box .ico-logo {
+  transition: all 1000ms ease;
   font-size: 4rem;
 }
 
@@ -799,6 +823,14 @@ a:hover {
   line-height: 1.8;
   box-shadow: 0 0 0 10px #d7ebf8;
 }
+
+.counter-ico .ico-logo {
+  height: 60px;
+  width: 60px;
+  line-height: 1.8;
+  box-shadow: 0 0 0 10px #695d5c;
+}
+
 
 .counter-num .counter {
   font-size: 2rem;
