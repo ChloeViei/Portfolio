@@ -269,15 +269,14 @@ a:hover {
 }
 
 .ico-logo {
-  height: 100px;
-  width: 150px;
+  height: 100%;
+  width: 100%;
   font-size: 2rem;
-  border-radius: 45%;
-  line-height: 1.55;
+  border-radius: 20px;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 15px #4287f5;
   display: block;
+  background-color: #5f92e3;
 }
 
 .ico-circle-petit {
@@ -288,7 +287,8 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 5px #88c6ef;
+  box-shadow: 0 0 0 5px #fff;
+  background-color: rgba(0,0,0, 0.2);
   display: block;
 }
 
@@ -786,20 +786,13 @@ a:hover {
   margin-left: 10px;
 }
 
-.skill-mf span {
-  color: #4e4e4e;
+.skill-mf p {
+  margin-bottom: 30px;
 }
 
-.skill-mf .progress {
-  background-color: #d7ebf8;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #48abec;
+.skill-mf .skill-logo {
+  width: 7em;
+  margin: 15px;
 }
 
 /*======================================
@@ -881,7 +874,7 @@ a:hover {
 }
 
 
-.counter-num .counter {
+.counter-num .counter_tools {
   font-size: 2rem;
   margin-bottom: 0;
 }
@@ -963,42 +956,44 @@ a:hover {
 
 
 
-.gallery {
+.gallery_portfolio {
   padding: 40px 0 300px;
   position: relative;
   overflow: hidden;
 }
 
-.gallery .row {
+.gallery_portfolio .row {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0;
   clear: both;
 }
-.gallery .row img {
+.gallery_portfolio .row img {
   max-width: 100%;
   height: auto;
   padding: 0;
   margin: 0;
 }
 
-.gallery ul li {
+.gallery_portfolio ul li {
   float: left;
   margin: 0 0.8771929825%;
   overflow: hidden;
 }
 
-.gallery ul {
+.gallery_portfolio ul {
   padding-top: 50px;
   position: relative;
 }
-.gallery ul li {
+
+.gallery_portfolio ul li {
   margin-bottom: 20px;
   width: 23.2456140351%;
   position: relative;
 }
-.gallery ul li a {
+
+.gallery_portfolio ul li a {
   display: block;
   position: relative;
   width: 100%;
@@ -1007,14 +1002,14 @@ a:hover {
   padding: 0;
   line-height: 0;
 }
-.gallery ul li a:before {
+.gallery_portfolio ul li a:before {
   position: absolute;
   width: 32px;
   height: 32px;
   top: 40%;
   left: 50%;
   margin: -14px 0 0 -16px;
-  background: url(data:image/svg+xml;utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2017.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20id%3D%22svg2%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Asodipodi%3D%22http%3A//sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%20xmlns%3Ainkscape%3D%22http%3A//www.inkscape.org/namespaces/inkscape%22%20inkscape%3Aversion%3D%220.48.4%20r9939%22%20sodipodi%3Adocname%3D%22icon-fullscreen.svg%22%0A%09%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%20960%20560%22%0A%09%20enable-background%3D%22new%200%200%20960%20560%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Csodipodi%3Anamedview%20%20borderopacity%3D%221%22%20pagecolor%3D%22%23ffffff%22%20bordercolor%3D%22%23666666%22%20objecttolerance%3D%2210%22%20gridtolerance%3D%2210%22%20guidetolerance%3D%2210%22%20showgrid%3D%22false%22%20fit-margin-top%3D%220%22%20fit-margin-left%3D%220%22%20inkscape%3Azoom%3D%227.375%22%20inkscape%3Acx%3D%22-5.1525424%22%20inkscape%3Acy%3D%2216%22%20id%3D%22namedview11%22%20inkscape%3Awindow-x%3D%22-8%22%20inkscape%3Awindow-y%3D%22-8%22%20fit-margin-right%3D%220%22%20inkscape%3Apageopacity%3D%220%22%20fit-margin-bottom%3D%220%22%20inkscape%3Awindow-width%3D%221366%22%20inkscape%3Awindow-height%3D%22706%22%20inkscape%3Awindow-maximized%3D%221%22%20inkscape%3Apageshadow%3D%222%22%20inkscape%3Acurrent-layer%3D%22svg2%22%3E%0A%09%3C/sodipodi%3Anamedview%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%22220%22%20y%3D%22260%22%20fill%3D%22%23FFFFFF%22%20width%3D%22536%22%20height%3D%2224%22/%3E%0A%3C/g%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%22476%22%20y%3D%224%22%20fill%3D%22%23FFFFFF%22%20width%3D%2224%22%20height%3D%22556%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A) no-repeat;
+  background: url(data:image/svg+xml;utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2017.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20id%3D%22svg2%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Asodipodi%3D%22http%3A//sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%20xmlns%3Ainkscape%3D%22http%3A//www.inkscape.org/namespaces/inkscape%22%20inkscape%3Aversion%3D%220.48.4%20r9939%22%20sodipodi%3Adocname%3D%22fullscreen.svg%22%0A%09%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%20960%20560%22%0A%09%20enable-background%3D%22new%200%200%20960%20560%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Csodipodi%3Anamedview%20%20borderopacity%3D%221%22%20pagecolor%3D%22%23ffffff%22%20bordercolor%3D%22%23666666%22%20objecttolerance%3D%2210%22%20gridtolerance%3D%2210%22%20guidetolerance%3D%2210%22%20showgrid%3D%22false%22%20fit-margin-top%3D%220%22%20fit-margin-left%3D%220%22%20inkscape%3Azoom%3D%227.375%22%20inkscape%3Acx%3D%22-5.1525424%22%20inkscape%3Acy%3D%2216%22%20id%3D%22namedview11%22%20inkscape%3Awindow-x%3D%22-8%22%20inkscape%3Awindow-y%3D%22-8%22%20fit-margin-right%3D%220%22%20inkscape%3Apageopacity%3D%220%22%20fit-margin-bottom%3D%220%22%20inkscape%3Awindow-width%3D%221366%22%20inkscape%3Awindow-height%3D%22706%22%20inkscape%3Awindow-maximized%3D%221%22%20inkscape%3Apageshadow%3D%222%22%20inkscape%3Acurrent-layer%3D%22svg2%22%3E%0A%09%3C/sodipodi%3Anamedview%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%22220%22%20y%3D%22260%22%20fill%3D%22%23FFFFFF%22%20width%3D%22536%22%20height%3D%2224%22/%3E%0A%3C/g%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%22476%22%20y%3D%224%22%20fill%3D%22%23FFFFFF%22%20width%3D%2224%22%20height%3D%22556%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A) no-repeat;
   content: "";
   opacity: 0;
   z-index: 1;
@@ -1022,11 +1017,11 @@ a:hover {
   -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.gallery ul li a:hover:before {
+.gallery_portfolio ul li a:hover:before {
   top: 50%;
   opacity: 1;
 }
-.gallery ul li a:after {
+.gallery_portfolio ul li a:after {
   position: absolute;
   width: 100%;
   top: 0;
@@ -1038,7 +1033,7 @@ a:hover {
   -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.gallery ul li a:hover:after {
+.gallery_portfolio ul li a:hover:after {
   opacity: 1;
 }
 
@@ -1138,7 +1133,7 @@ a:hover {
   -webkit-box-align: center;
   align-items: center;
   position: relative;
-  margin: -100px 0 140px;
+  margin: -100px 0 0px;
   z-index: 1;
 }
 
@@ -1157,11 +1152,12 @@ a:hover {
 
 #contact-form {
   margin-top: 1rem;
+  display: inline-block;
 }
 
 input, textarea {
   border: none;
-  padding: 1rem;
+  padding: 0.5rem;
   font-family: 'Overlock', Arial, Helvetica, sans-serif;
   width: 100%;
   height: 40%;
@@ -1177,7 +1173,7 @@ textarea {
   border-bottom: 1px solid #fafafa;
   background: transparent;
   color: #fafafa;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   box-shadow: none;
   outline: none;
 }
@@ -1251,10 +1247,6 @@ input[type="submit"]:focus {
     padding: 0;
   }
 }
-
-
-
-
 
 
 
@@ -1423,25 +1415,25 @@ footer .credits a {
 
 
 
-#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+#fh5co-services, #fh5co-testimonials, #counters_about, #fh5co-work, #fh5co-contact, #fh5co-about {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+  #fh5co-services, #fh5co-testimonials, #counters_about, #fh5co-work, #fh5co-contact, #fh5co-about {
     padding: 2em 0;
   }
 }
 
-#fh5co-services, #fh5co-work, #fh5co-counters {
+#fh5co-services, #fh5co-work, #counters_about {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-work, #fh5co-counters {
+  #fh5co-services, #fh5co-work, #counters_about {
     padding: 4em 0;
   }
 }
 
-#fh5co-counters {
+#counters_about {
   background: #52d3aa;
   overflow: hidden;
   background-color: transparent;
@@ -1452,20 +1444,25 @@ footer .credits a {
   padding: 9em 0 10em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-counters {
+  #counters_about {
     padding: 4em 0;
   }
 }
-#fh5co-counters .fh5co-overlay {
+#counters_about .fh5co-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.8);
+  background-image: url("../img/parallax.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
-#fh5co-counters:before, #fh5co-counters:after {
+#counters_about:before, #counters_about:after {
   position: absolute;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
@@ -1480,51 +1477,54 @@ footer .credits a {
   padding: 0;
   width: 100%;
 }
-#fh5co-counters:before {
+#counters_about:before {
   top: 0;
   margin-top: -35px;
 }
-#fh5co-counters:after {
+#counters_about:after {
   bottom: 0;
   margin-bottom: -35px;
 }
-#fh5co-counters .section-heading {
+#counters_about .section-heading {
   position: relative;
   z-index: 3;
   margin-bottom: 0;
 }
-#fh5co-counters .section-heading h3 {
+#counters_about .section-heading h3 {
   color: #fff;
 }
-#fh5co-counters .section-heading h3:after {
+#counters_about .section-heading h3:after {
   background: rgba(255, 255, 255, 0.3) !important;
 }
-#fh5co-counters .section-heading .subtext h3 {
+#counters_about .section-heading .subtext h3 {
   color: rgba(255, 255, 255, 0.7) !important;
 }
-#fh5co-counters .fh5co-counter {
+#counters_about .counter_about {
   position: relative;
   z-index: 3;
   text-align: center;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-counters .fh5co-counter {
+  #counters_about .counter_about {
     margin-bottom: 50px;
     float: left;
     width: 100%;
   }
 }
 
-#fh5co-counters .fh5co-counter .fh5co-counter-icon {
+#counters_about .counter_about .counter-icon {
   font-size: 40px;
-  color: #52d3aa;
+  color: #fff;
 }
-#fh5co-counters .fh5co-counter .fh5co-counter-number {
-  font-size: 70px;
+#counters_about .counter_about .counter-number {
+  font-size: 2rem;
+  line-height: normal;
+  margin-top: 1em;
+  margin-bottom:auto;
   color: #fff;
   font-weight: 300;
 }
-#fh5co-counters .fh5co-counter .fh5co-counter-label {
+#counters_about .counter_about .counter-label {
   color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
   font-weight: 400;

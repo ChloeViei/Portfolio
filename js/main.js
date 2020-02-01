@@ -39,7 +39,7 @@
 	});
 
 	/*--/ Star Counter /--*/
-	$('.counter').counterUp({
+	$('.counter_tools').counterUp({
 		delay: 15,
 		time: 2000
 	});
@@ -62,14 +62,14 @@
 
 	/*--/ Projects /--*/
 
-	$('.gallery ul li a').click(function() {
+	$('.gallery_portfolio ul li a').click(function() {
 		var itemID = $(this).attr('href');
-		$('.gallery ul').addClass('item_open');
+		$('.gallery_portfolio ul').addClass('item_open');
 		$(itemID).addClass('item_open');
 		return false;
 	});
 	$('.close').click(function() {
-		$('.port, .gallery ul').removeClass('item_open');
+		$('.port, .gallery_portfolio ul').removeClass('item_open');
 		return false;
 	});
 
@@ -135,7 +135,7 @@
 	}
 
 	var countersAnimate = function() {
-		var counters = $('#fh5co-counters');
+		var counters = $('#counters_about');
 		if ( counters.length > 0 ) {
 
 			counters.waypoint( function( direction ) {
