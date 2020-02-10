@@ -338,7 +338,7 @@ a:hover {
 }
 
 .accordion:after {
-  font-family: "Montserrat";
+  font-family: FontAwesome;
   content:"\f067";
   font-size: 20px;
   color: #777;
@@ -346,7 +346,7 @@ a:hover {
 }
 
 .active_accordion:after {
-  font-family: "Montserrat";
+  font-family: FontAwesome;
   content:"\f00d";
   font-size: 21px;
   color: #616060;
